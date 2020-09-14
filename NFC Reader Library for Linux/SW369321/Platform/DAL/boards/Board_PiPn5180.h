@@ -35,7 +35,7 @@
 /******************************************************************
  * Board Pin/Gpio configurations
  ******************************************************************/
-#define PHDRIVER_PIN_RESET         7   /**< "/sys/class/gpio/gpio7/" */
+#define PHDRIVER_PIN_RESET         4//7   /**< "/sys/class/gpio/gpio7/" */
 #define PHDRIVER_PIN_IRQ           23  /**< "/sys/class/gpio/gpio23/" */
 #define PHDRIVER_PIN_BUSY          25  /**< "/sys/class/gpio/gpio25/" */
 #define PHDRIVER_PIN_DWL           18  /**< "/sys/class/gpio/gpio18/" */
