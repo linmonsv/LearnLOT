@@ -3281,7 +3281,6 @@ phStatus_t phhalHw_Pn5180_Lpcd(
     uint32_t    PH_MEMLOC_REM dwLpcdThreshold = 0U;
     uint8_t     PH_MEMLOC_REM bOcProtControl[1];
 
-    pDataParams->bLpcdMode = 0x00;//QFX
     switch (pDataParams->bLpcdMode)
     {
     case PHHAL_HW_PN5180_LPCD_MODE_DEFAULT:
